@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("gymsss.jpg");
+    background-repeat: no-repeat;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 72px;
+}
+
+.left div {
+    line-height: 33px;
+    font-size: 20px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(253, 252, 249);
+    text-underline-offset: 5px; 
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 29px auto;
+    /* if we want to set anything in center then we will use margin auto */
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid rgb(218, 237, 12); */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;/* by using text decoration:none we can eliminate the line below A */
+    padding: 10px;
+    background: rebeccapurple;
+    border: 2px solid rgb(242, 238, 248);
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(223, 230, 221);
+    background: #2617ef;
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px 9px;
+    background-color: rgb(58, 28, 192);
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(199, 20, 20);
+}
+
+.regbtn {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(250, 32, 32);
+    color: rgb(235, 226, 226);
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    box-shadow: 8px 8px 9px rgb(16, 17, 16),
+        inset -6px -6px 7px #121412;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.regbtn:hover {
+    color: rgb(17, 14, 14);
+    background: #dfe1e7;
+}
+
+.container {
+    border: 6px solid #2617ef;
+    margin: 184px 56px;
+    padding: 14px -54px;
+    width: 581px;
+    height: 362px;
+}
+
+.form-group input {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    width: 380px;
+    padding: 9px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.container h1 {
+    text-align: center; /* now the best gym of delhi will align in a center */
+    text-shadow: 6px -5px 4px #191717,
+    teal -6px 7px 4px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container button {
+    display: block;
+    width: 62%;
+    margin: 21px auto;
+}
